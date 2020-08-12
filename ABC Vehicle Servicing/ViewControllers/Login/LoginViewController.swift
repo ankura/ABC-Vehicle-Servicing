@@ -611,11 +611,18 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         
         // initialisation of navigation controller and home vc
         let navigationController = UINavigationController()
-        let homeVC = self.storyboard?.instantiateViewController(withIdentifier: "HomeVC")as! HomeViewController
-        navigationController.addChild(homeVC)
-        UIApplication.shared.windows.first?.rootViewController = navigationController
+        
+        let splitViewController =  UISplitViewController()
+        let homeViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeVC")as! HomeViewController
+        navigationController.addChild(homeViewController)
+        let detailViewController = self.storyboard?.instantiateViewController(withIdentifier: "DetailVC")as! DetailViewController
+        let detailVCN =  UINavigationController(rootViewController: detailViewController)
+        splitViewController.viewControllers = [navigationController,detailVCN]
+        UIApplication.shared.windows.first?.rootViewController = splitViewController
         UIApplication.shared.windows.first?.makeKeyAndVisible()
         
+        detailViewController.navigationItem.leftItemsSupplementBackButton = true
+        detailViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
     }
     
     

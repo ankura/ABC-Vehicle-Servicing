@@ -29,6 +29,7 @@
 		45D075F924E3EA9F00114ECF /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E924E3EA9F00114ECF /* CheckBox.swift */; };
 		45D075FA24E3EA9F00114ECF /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075EB24E3EA9F00114ECF /* ApiManager.swift */; };
 		45D0760124E3EC0200114ECF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45D0760324E3EC0200114ECF /* Localizable.strings */; };
+		45D0760624E400B700114ECF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D0760524E400B700114ECF /* DetailViewController.swift */; };
 		4B446B79B0034DAC60594F12 /* Pods_ABC_Vehicle_Servicing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB20314126E41F5D282C1D0 /* Pods_ABC_Vehicle_Servicing.framework */; };
 		A39D186B729D51F3848804F0 /* Pods_ABC_Vehicle_Servicing_ABC_Vehicle_ServicingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D2786B3E890BDF814323A5 /* Pods_ABC_Vehicle_Servicing_ABC_Vehicle_ServicingUITests.framework */; };
 /* End PBXBuildFile section */
@@ -83,6 +84,7 @@
 		45D075FB24E3EAE200114ECF /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/Main.strings"; sourceTree = "<group>"; };
 		45D0760224E3EC0200114ECF /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		45D0760424E3EC1A00114ECF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		45D0760524E400B700114ECF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		824F40816E32394CA76E233C /* Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests.debug.xcconfig"; path = "Target Support Files/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		871981725C596AE0026A40BA /* Pods_ABC_Vehicle_ServicingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABC_Vehicle_ServicingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EDC5B193C40EF28E3BA28A /* Pods-ABC Vehicle Servicing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC Vehicle Servicing.debug.xcconfig"; path = "Target Support Files/Pods-ABC Vehicle Servicing/Pods-ABC Vehicle Servicing.debug.xcconfig"; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 			children = (
 				45D075DA24E3EA9F00114ECF /* SidePanelViewController.swift */,
 				45D075DB24E3EA9F00114ECF /* HomeViewController.swift */,
+				45D0760524E400B700114ECF /* DetailViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -549,6 +552,7 @@
 				45D075F724E3EA9F00114ECF /* ServiceStatusCell.swift in Sources */,
 				45D075F424E3EA9F00114ECF /* Preferences.swift in Sources */,
 				45D075EC24E3EA9F00114ECF /* DummyData.swift in Sources */,
+				45D0760624E400B700114ECF /* DetailViewController.swift in Sources */,
 				45D075F524E3EA9F00114ECF /* Common.swift in Sources */,
 				45430C6F24E3E2980093D04A /* AppDelegate.swift in Sources */,
 				45D075F324E3EA9F00114ECF /* ServicingStatus.swift in Sources */,

@@ -13,7 +13,16 @@ import Toast_Swift
 import Alamofire
 
 
-class HomeViewController: UIViewController, UIGestureRecognizerDelegate, SidePanelViewControllerDelegate {
+class HomeViewController: UITableViewController, UIGestureRecognizerDelegate, SidePanelViewControllerDelegate {
+    
+    /*override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        return UITableViewCell()
+    }*/
+    
     
     // add shadown on controller if slide pannel is open
     var currentState: slideOutState = .collapsed {
@@ -25,11 +34,11 @@ class HomeViewController: UIViewController, UIGestureRecognizerDelegate, SidePan
     
     var leftViewController: SidePanelViewController?
     let centerPanelExpandedOffset: CGFloat = 60 // How much panel should expand
-    var carInfoList: Array<carInfoItem> = [] // Array to store car information
-    var carModel: carInfoItem? // 
+    //var carInfoList: Array<carInfoItem> = [] // Array to store car information
+    //var carModel: carInfoItem? //
     var currentServicingStatus: servicingStatus = .no_active_servicing
     
-    private let scrollView: UIScrollView = {
+    /*private let scrollView: UIScrollView = {
         let scrollView = UIScrollView()
         scrollView.backgroundColor = kBackgroundColor
         scrollView.showsHorizontalScrollIndicator = false
@@ -221,7 +230,7 @@ class HomeViewController: UIViewController, UIGestureRecognizerDelegate, SidePan
         carInfoView.addArrangedSubview(carInfoSubView1)
         carInfoView.addArrangedSubview(carInfoSubView2)
         
-    }
+    }*/
     
     
     override func viewDidLoad() {
@@ -257,7 +266,7 @@ class HomeViewController: UIViewController, UIGestureRecognizerDelegate, SidePan
     // Method to add various UI component on View/Scroll View
     func addUI() {
         
-        self.view.addSubview(self.scrollView)
+        /*self.view.addSubview(self.scrollView)
         
         // TODO: - remove it if data is coming from service or local db
         // added to select random values to show different cars, its info and service status from dummy data
@@ -269,13 +278,6 @@ class HomeViewController: UIViewController, UIGestureRecognizerDelegate, SidePan
         //carModel = carInfoItem(title: "Honda City", value: "honda_car")
         let carData = CarAPI.getCarData()
         carModel = carInfoItem(title: carData[randomCar].carName, value: carData[randomCar].carImage)
-        
-        /*carInfoList.append(carInfoItem(title: "KM Driven", value: "14765"))
-        carInfoList.append(carInfoItem(title: "Fuel Level", value: "45 L"))
-        carInfoList.append(carInfoItem(title: "Tyre Thread", value: "2 mm"))
-        carInfoList.append(carInfoItem(title: "Engine Health", value: "Good"))
-        carInfoList.append(carInfoItem(title: "Oil Level", value: "2.6L / 3L"))
-        carInfoList.append(carInfoItem(title: "Battery Life", value: "Bad"))*/
         
         // getting car statistics from dummy data. It should be replaced if data is coming from service or local db
         let carStats = StatsAPI.getStatsData()
@@ -323,7 +325,7 @@ class HomeViewController: UIViewController, UIGestureRecognizerDelegate, SidePan
         }
         self.servicingStatusView.showCombindStatus()
         self.scrollView.addSubview(self.servicingStatusView)
-
+        */
     }
     
     
@@ -331,7 +333,7 @@ class HomeViewController: UIViewController, UIGestureRecognizerDelegate, SidePan
     func drawUI() {
         
         //setup scroll view
-         
+         /*
          self.scrollView.frame = self.view.frame
         
         let guide = self.view.safeAreaLayoutGuide
@@ -392,7 +394,7 @@ class HomeViewController: UIViewController, UIGestureRecognizerDelegate, SidePan
             val = 80.0
         }
         
-        scrollView.contentSize = CGSize(width: self.view.frame.size.width, height: (contentRect.size.height+val))
+        scrollView.contentSize = CGSize(width: self.view.frame.size.width, height: (contentRect.size.height+val))*/
     }
     
     
