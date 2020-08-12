@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_ABC_Vehicle_Servicing_ABC_Vehicle_ServicingUITests : NSObject
+@end
+@implementation PodsDummy_Pods_ABC_Vehicle_Servicing_ABC_Vehicle_ServicingUITests
+@end

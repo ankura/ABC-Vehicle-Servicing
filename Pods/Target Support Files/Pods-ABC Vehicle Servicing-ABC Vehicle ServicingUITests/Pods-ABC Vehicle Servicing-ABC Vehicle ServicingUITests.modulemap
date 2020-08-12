@@ -1,0 +1,6 @@
+framework module Pods_ABC_Vehicle_Servicing_ABC_Vehicle_ServicingUITests {
+  umbrella header "Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,69 @@
+/* 
+  Localizable.strings
+  ABC Vehicle Servicing
+
+  Created by Ankur Agarwal on 12/08/20.
+  Copyright © 2020 Ankur Agarwal. All rights reserved.
+ //  Class to have localised strings for En-IN
+*/
+
+"TIMEOUT_STR" = "Server is not responding or timed-out. Please try again.";
+"WELCOME_STR" = "Welcome";
+"LOGIN_STR"   = "Login";
+"EMAILID_STR" = "Email ID";
+"EMAIL_PLACE_STR" = "Enter your email id";
+"PASS_STR"    = "Password";
+"PASS_PLACE_STR" = "Enter your password";
+"REMEMBER_ME_STR" = "Remember Me";
+"FORGOT_PASS_STR" = "Forgot Password?";
+"OR_STR"        = "OR";
+"EMAIL_EMPTY_STR" = "Email field can't empty.";
+"EMAIL_NOT_VALID_STR" = "Email is not valid.";
+"PASS_EMPTY_STR" = "Password field can't empty.";
+"PASS_NOT_VALID_STR" = "Password should be 8 characters or more.";
+"PASSCODE_USE_STR" = "Please use your Passcode";
+"PASSCODE_REQ_STR" = "Authentication required to access the secure data";
+"SOMETHING_WRONG_STR" = "Something went wrong. Please try again.";
+"AUTH_SUCCESS_STR" = "Authenticated succesfully!";
+"LOGOUT_STR" = "LogOut";
+"SERVICE_STATUS_STR" = "Service Status ";
+"ESTIMATION_STR" = "(Estimated time:";
+"NO_SERVICE_PROG_STR" = "(No service in progress)";
+"NOT_STARTED_STR" = "Not Started";
+"IN_PROGRESS_STR" = "In progress";
+"COMPLETED_STR" = "Completed";
+"GOOGLE_SIGN_ISSUE_STR" = "The user has not signed in before or they have since signed out.";
+"LOGOUT_CONF_STR" = "Do you want to Logout?";
+"KM_DRIVEN_STR" = "KM Driven";
+"FUEL-LEVEL_STR" = "Fuel Level";
+"TYRE_THREAD_STR" = "Tyre Thread";
+"ENGINE_HEALTH_STR" = "Engine Health";
+"OIL_LEVEL_STR" = "Oil Level";
+"BATTERY_LIFE_STR" = "Battery Life";
+"OIL_CHANGE_STR" = "Oil Change";
+"BRAKE_OIL_STR" = "Brake Oil";
+"OIL_FILTER_STR" = "Oil Filter";
+"BATTERY_CHECK_STR" = "Battery Check";
+
+
+"ALERT_TITLE_FAIL" = "Fail";
+"ALERT_TITLE_ERROR" = "Error";
+"ALERT_TITLE_SUCCESS" = "Success";
+"ALERT_TITLE_CONFIRMATION" = "Confirmation";
+"ALERT_YES" = "Yes";
+"ALERT_NO" = "No";
+"ALERT_OK" = "OK";
+
+
+
+"SPLASH_MAIN_IMG" = "splash";
+"SPLASH_IMG" = "splash_text";
+"GICON_LOGIN_IMG" = "google_login";
+"SERVICE_STATUS_IMG" = "service_status";
+"BOOK_SERVICE_IMG" = "book_service";
+"MENU_IMG" = "menu";
+"NOTIFICATION_IMG" = "notification";
+"SERVICE_OIL_IMG" = "service_oil";
+"SERVICE_BREAK_OIL_IMG" = "service_break_oil";
+"SERVICE_FILTER_IMG" = "service_filter";
+ "SERVICE_BATTERY_IMG" = "service_battery";

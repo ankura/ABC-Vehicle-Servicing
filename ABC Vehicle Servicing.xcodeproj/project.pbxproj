@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011EEC1BD358F0E580617BE2 /* Pods_ABC_Vehicle_ServicingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 871981725C596AE0026A40BA /* Pods_ABC_Vehicle_ServicingTests.framework */; };
+		45430C6F24E3E2980093D04A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45430C6E24E3E2980093D04A /* AppDelegate.swift */; };
+		45430C7624E3E2980093D04A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45430C7424E3E2980093D04A /* Main.storyboard */; };
+		45430C7824E3E2990093D04A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45430C7724E3E2990093D04A /* Assets.xcassets */; };
+		45430C7B24E3E2990093D04A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45430C7924E3E2990093D04A /* LaunchScreen.storyboard */; };
+		45430C8624E3E2990093D04A /* ABC_Vehicle_ServicingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45430C8524E3E2990093D04A /* ABC_Vehicle_ServicingTests.swift */; };
+		45430C9124E3E2990093D04A /* ABC_Vehicle_ServicingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45430C9024E3E2990093D04A /* ABC_Vehicle_ServicingUITests.swift */; };
+		45D075EC24E3EA9F00114ECF /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075D724E3EA9F00114ECF /* DummyData.swift */; };
+		45D075ED24E3EA9F00114ECF /* SidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075DA24E3EA9F00114ECF /* SidePanelViewController.swift */; };
+		45D075EE24E3EA9F00114ECF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075DB24E3EA9F00114ECF /* HomeViewController.swift */; };
+		45D075EF24E3EA9F00114ECF /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075DD24E3EA9F00114ECF /* SplashViewController.swift */; };
+		45D075F124E3EA9F00114ECF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E024E3EA9F00114ECF /* LoginViewController.swift */; };
+		45D075F224E3EA9F00114ECF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E224E3EA9F00114ECF /* Constants.swift */; };
+		45D075F324E3EA9F00114ECF /* ServicingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E324E3EA9F00114ECF /* ServicingStatus.swift */; };
+		45D075F424E3EA9F00114ECF /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E424E3EA9F00114ECF /* Preferences.swift */; };
+		45D075F524E3EA9F00114ECF /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E524E3EA9F00114ECF /* Common.swift */; };
+		45D075F624E3EA9F00114ECF /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E624E3EA9F00114ECF /* MenuItem.swift */; };
+		45D075F724E3EA9F00114ECF /* ServiceStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E724E3EA9F00114ECF /* ServiceStatusCell.swift */; };
+		45D075F824E3EA9F00114ECF /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E824E3EA9F00114ECF /* MenuCell.swift */; };
+		45D075F924E3EA9F00114ECF /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E924E3EA9F00114ECF /* CheckBox.swift */; };
+		45D075FA24E3EA9F00114ECF /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075EB24E3EA9F00114ECF /* ApiManager.swift */; };
+		45D0760124E3EC0200114ECF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45D0760324E3EC0200114ECF /* Localizable.strings */; };
+		4B446B79B0034DAC60594F12 /* Pods_ABC_Vehicle_Servicing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB20314126E41F5D282C1D0 /* Pods_ABC_Vehicle_Servicing.framework */; };
+		A39D186B729D51F3848804F0 /* Pods_ABC_Vehicle_Servicing_ABC_Vehicle_ServicingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D2786B3E890BDF814323A5 /* Pods_ABC_Vehicle_Servicing_ABC_Vehicle_ServicingUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45430C8224E3E2990093D04A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45430C6324E3E2980093D04A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45430C6A24E3E2980093D04A;
+			remoteInfo = "ABC Vehicle Servicing";
+		};
+		45430C8D24E3E2990093D04A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45430C6324E3E2980093D04A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45430C6A24E3E2980093D04A;
+			remoteInfo = "ABC Vehicle Servicing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064FDDA4847C138A8D4446DB /* Pods-ABC Vehicle ServicingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC Vehicle ServicingTests.release.xcconfig"; path = "Target Support Files/Pods-ABC Vehicle ServicingTests/Pods-ABC Vehicle ServicingTests.release.xcconfig"; sourceTree = "<group>"; };
+		2CF7C852AB334FD4DCB7A8A6 /* Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests.release.xcconfig"; path = "Target Support Files/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2EB20314126E41F5D282C1D0 /* Pods_ABC_Vehicle_Servicing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABC_Vehicle_Servicing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45430C6B24E3E2980093D04A /* ABC Vehicle Servicing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ABC Vehicle Servicing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45430C6E24E3E2980093D04A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45430C7524E3E2980093D04A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45430C7724E3E2990093D04A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45430C7A24E3E2990093D04A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45430C7C24E3E2990093D04A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45430C8124E3E2990093D04A /* ABC Vehicle ServicingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ABC Vehicle ServicingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45430C8524E3E2990093D04A /* ABC_Vehicle_ServicingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABC_Vehicle_ServicingTests.swift; sourceTree = "<group>"; };
+		45430C8724E3E2990093D04A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45430C8C24E3E2990093D04A /* ABC Vehicle ServicingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ABC Vehicle ServicingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45430C9024E3E2990093D04A /* ABC_Vehicle_ServicingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABC_Vehicle_ServicingUITests.swift; sourceTree = "<group>"; };
+		45430C9224E3E2990093D04A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45D075D724E3EA9F00114ECF /* DummyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		45D075DA24E3EA9F00114ECF /* SidePanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidePanelViewController.swift; sourceTree = "<group>"; };
+		45D075DB24E3EA9F00114ECF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		45D075DD24E3EA9F00114ECF /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		45D075E024E3EA9F00114ECF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		45D075E224E3EA9F00114ECF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		45D075E324E3EA9F00114ECF /* ServicingStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicingStatus.swift; sourceTree = "<group>"; };
+		45D075E424E3EA9F00114ECF /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		45D075E524E3EA9F00114ECF /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		45D075E624E3EA9F00114ECF /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		45D075E724E3EA9F00114ECF /* ServiceStatusCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceStatusCell.swift; sourceTree = "<group>"; };
+		45D075E824E3EA9F00114ECF /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		45D075E924E3EA9F00114ECF /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		45D075EB24E3EA9F00114ECF /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		45D075FB24E3EAE200114ECF /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		45D0760224E3EC0200114ECF /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		45D0760424E3EC1A00114ECF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		824F40816E32394CA76E233C /* Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests.debug.xcconfig"; path = "Target Support Files/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		871981725C596AE0026A40BA /* Pods_ABC_Vehicle_ServicingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABC_Vehicle_ServicingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96EDC5B193C40EF28E3BA28A /* Pods-ABC Vehicle Servicing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC Vehicle Servicing.debug.xcconfig"; path = "Target Support Files/Pods-ABC Vehicle Servicing/Pods-ABC Vehicle Servicing.debug.xcconfig"; sourceTree = "<group>"; };
+		A7D2786B3E890BDF814323A5 /* Pods_ABC_Vehicle_Servicing_ABC_Vehicle_ServicingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABC_Vehicle_Servicing_ABC_Vehicle_ServicingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD1EB8BB2E51F0A95D5FEE9 /* Pods-ABC Vehicle ServicingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC Vehicle ServicingTests.debug.xcconfig"; path = "Target Support Files/Pods-ABC Vehicle ServicingTests/Pods-ABC Vehicle ServicingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5C82C810C791FB97AF03477 /* Pods-ABC Vehicle Servicing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC Vehicle Servicing.release.xcconfig"; path = "Target Support Files/Pods-ABC Vehicle Servicing/Pods-ABC Vehicle Servicing.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45430C6824E3E2980093D04A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B446B79B0034DAC60594F12 /* Pods_ABC_Vehicle_Servicing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45430C7E24E3E2990093D04A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011EEC1BD358F0E580617BE2 /* Pods_ABC_Vehicle_ServicingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45430C8924E3E2990093D04A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39D186B729D51F3848804F0 /* Pods_ABC_Vehicle_Servicing_ABC_Vehicle_ServicingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043A8817D325E578B979F709 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96EDC5B193C40EF28E3BA28A /* Pods-ABC Vehicle Servicing.debug.xcconfig */,
+				F5C82C810C791FB97AF03477 /* Pods-ABC Vehicle Servicing.release.xcconfig */,
+				824F40816E32394CA76E233C /* Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests.debug.xcconfig */,
+				2CF7C852AB334FD4DCB7A8A6 /* Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests.release.xcconfig */,
+				CAD1EB8BB2E51F0A95D5FEE9 /* Pods-ABC Vehicle ServicingTests.debug.xcconfig */,
+				064FDDA4847C138A8D4446DB /* Pods-ABC Vehicle ServicingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		45430C6224E3E2980093D04A = {
+			isa = PBXGroup;
+			children = (
+				45430C6D24E3E2980093D04A /* ABC Vehicle Servicing */,
+				45430C8424E3E2990093D04A /* ABC Vehicle ServicingTests */,
+				45430C8F24E3E2990093D04A /* ABC Vehicle ServicingUITests */,
+				45430C6C24E3E2980093D04A /* Products */,
+				043A8817D325E578B979F709 /* Pods */,
+				C798419AE13D637B9350D51D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45430C6C24E3E2980093D04A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45430C6B24E3E2980093D04A /* ABC Vehicle Servicing.app */,
+				45430C8124E3E2990093D04A /* ABC Vehicle ServicingTests.xctest */,
+				45430C8C24E3E2990093D04A /* ABC Vehicle ServicingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45430C6D24E3E2980093D04A /* ABC Vehicle Servicing */ = {
+			isa = PBXGroup;
+			children = (
+				45D0760324E3EC0200114ECF /* Localizable.strings */,
+				45D075EA24E3EA9F00114ECF /* APIManager */,
+				45D075D624E3EA9F00114ECF /* Model */,
+				45D075E124E3EA9F00114ECF /* Shared */,
+				45D075D824E3EA9F00114ECF /* ViewControllers */,
+				45430C6E24E3E2980093D04A /* AppDelegate.swift */,
+				45430C7424E3E2980093D04A /* Main.storyboard */,
+				45430C7724E3E2990093D04A /* Assets.xcassets */,
+				45430C7924E3E2990093D04A /* LaunchScreen.storyboard */,
+				45430C7C24E3E2990093D04A /* Info.plist */,
+			);
+			path = "ABC Vehicle Servicing";
+			sourceTree = "<group>";
+		};
+		45430C8424E3E2990093D04A /* ABC Vehicle ServicingTests */ = {
+			isa = PBXGroup;
+			children = (
+				45430C8524E3E2990093D04A /* ABC_Vehicle_ServicingTests.swift */,
+				45430C8724E3E2990093D04A /* Info.plist */,
+			);
+			path = "ABC Vehicle ServicingTests";
+			sourceTree = "<group>";
+		};
+		45430C8F24E3E2990093D04A /* ABC Vehicle ServicingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45430C9024E3E2990093D04A /* ABC_Vehicle_ServicingUITests.swift */,
+				45430C9224E3E2990093D04A /* Info.plist */,
+			);
+			path = "ABC Vehicle ServicingUITests";
+			sourceTree = "<group>";
+		};
+		45D075D624E3EA9F00114ECF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45D075D724E3EA9F00114ECF /* DummyData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45D075D824E3EA9F00114ECF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				45D075D924E3EA9F00114ECF /* Home */,
+				45D075DC24E3EA9F00114ECF /* Splash */,
+				45D075DF24E3EA9F00114ECF /* Login */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		45D075D924E3EA9F00114ECF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				45D075DA24E3EA9F00114ECF /* SidePanelViewController.swift */,
+				45D075DB24E3EA9F00114ECF /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		45D075DC24E3EA9F00114ECF /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				45D075DD24E3EA9F00114ECF /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		45D075DF24E3EA9F00114ECF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				45D075E024E3EA9F00114ECF /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		45D075E124E3EA9F00114ECF /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				45D075E224E3EA9F00114ECF /* Constants.swift */,
+				45D075E324E3EA9F00114ECF /* ServicingStatus.swift */,
+				45D075E424E3EA9F00114ECF /* Preferences.swift */,
+				45D075E524E3EA9F00114ECF /* Common.swift */,
+				45D075E624E3EA9F00114ECF /* MenuItem.swift */,
+				45D075E724E3EA9F00114ECF /* ServiceStatusCell.swift */,
+				45D075E824E3EA9F00114ECF /* MenuCell.swift */,
+				45D075E924E3EA9F00114ECF /* CheckBox.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		45D075EA24E3EA9F00114ECF /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				45D075EB24E3EA9F00114ECF /* ApiManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		C798419AE13D637B9350D51D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EB20314126E41F5D282C1D0 /* Pods_ABC_Vehicle_Servicing.framework */,
+				A7D2786B3E890BDF814323A5 /* Pods_ABC_Vehicle_Servicing_ABC_Vehicle_ServicingUITests.framework */,
+				871981725C596AE0026A40BA /* Pods_ABC_Vehicle_ServicingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45430C6A24E3E2980093D04A /* ABC Vehicle Servicing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45430C9524E3E2990093D04A /* Build configuration list for PBXNativeTarget "ABC Vehicle Servicing" */;
+			buildPhases = (
+				4175C0C4AE1CED64C1C2933F /* [CP] Check Pods Manifest.lock */,
+				45430C6724E3E2980093D04A /* Sources */,
+				45430C6824E3E2980093D04A /* Frameworks */,
+				45430C6924E3E2980093D04A /* Resources */,
+				B86762E24AE5C08C9DB4F023 /* [CP] Embed Pods Frameworks */,
+				8FAD0DB7A8A50E1A12EEDF42 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ABC Vehicle Servicing";
+			productName = "ABC Vehicle Servicing";
+			productReference = 45430C6B24E3E2980093D04A /* ABC Vehicle Servicing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45430C8024E3E2990093D04A /* ABC Vehicle ServicingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45430C9824E3E2990093D04A /* Build configuration list for PBXNativeTarget "ABC Vehicle ServicingTests" */;
+			buildPhases = (
+				6812F235CAD5106B697B7908 /* [CP] Check Pods Manifest.lock */,
+				45430C7D24E3E2990093D04A /* Sources */,
+				45430C7E24E3E2990093D04A /* Frameworks */,
+				45430C7F24E3E2990093D04A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45430C8324E3E2990093D04A /* PBXTargetDependency */,
+			);
+			name = "ABC Vehicle ServicingTests";
+			productName = "ABC Vehicle ServicingTests";
+			productReference = 45430C8124E3E2990093D04A /* ABC Vehicle ServicingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45430C8B24E3E2990093D04A /* ABC Vehicle ServicingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45430C9B24E3E2990093D04A /* Build configuration list for PBXNativeTarget "ABC Vehicle ServicingUITests" */;
+			buildPhases = (
+				B74CD39FE90E60ACD996C87E /* [CP] Check Pods Manifest.lock */,
+				45430C8824E3E2990093D04A /* Sources */,
+				45430C8924E3E2990093D04A /* Frameworks */,
+				45430C8A24E3E2990093D04A /* Resources */,
+				B0560E8B88F1069FC075A66D /* [CP] Embed Pods Frameworks */,
+				F58E3022DD93EC97C39E7532 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45430C8E24E3E2990093D04A /* PBXTargetDependency */,
+			);
+			name = "ABC Vehicle ServicingUITests";
+			productName = "ABC Vehicle ServicingUITests";
+			productReference = 45430C8C24E3E2990093D04A /* ABC Vehicle ServicingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45430C6324E3E2980093D04A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Ankur Agarwal";
+				TargetAttributes = {
+					45430C6A24E3E2980093D04A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					45430C8024E3E2990093D04A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 45430C6A24E3E2980093D04A;
+					};
+					45430C8B24E3E2990093D04A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 45430C6A24E3E2980093D04A;
+					};
+				};
+			};
+			buildConfigurationList = 45430C6624E3E2980093D04A /* Build configuration list for PBXProject "ABC Vehicle Servicing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"en-IN",
+			);
+			mainGroup = 45430C6224E3E2980093D04A;
+			productRefGroup = 45430C6C24E3E2980093D04A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45430C6A24E3E2980093D04A /* ABC Vehicle Servicing */,
+				45430C8024E3E2990093D04A /* ABC Vehicle ServicingTests */,
+				45430C8B24E3E2990093D04A /* ABC Vehicle ServicingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45430C6924E3E2980093D04A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45430C7B24E3E2990093D04A /* LaunchScreen.storyboard in Resources */,
+				45D0760124E3EC0200114ECF /* Localizable.strings in Resources */,
+				45430C7824E3E2990093D04A /* Assets.xcassets in Resources */,
+				45430C7624E3E2980093D04A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45430C7F24E3E2990093D04A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45430C8A24E3E2990093D04A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4175C0C4AE1CED64C1C2933F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ABC Vehicle Servicing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6812F235CAD5106B697B7908 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ABC Vehicle ServicingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FAD0DB7A8A50E1A12EEDF42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Servicing/Pods-ABC Vehicle Servicing-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Servicing/Pods-ABC Vehicle Servicing-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Servicing/Pods-ABC Vehicle Servicing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0560E8B88F1069FC075A66D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B74CD39FE90E60ACD996C87E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B86762E24AE5C08C9DB4F023 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Servicing/Pods-ABC Vehicle Servicing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Servicing/Pods-ABC Vehicle Servicing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Servicing/Pods-ABC Vehicle Servicing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F58E3022DD93EC97C39E7532 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests/Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45430C6724E3E2980093D04A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D075FA24E3EA9F00114ECF /* ApiManager.swift in Sources */,
+				45D075F824E3EA9F00114ECF /* MenuCell.swift in Sources */,
+				45D075F124E3EA9F00114ECF /* LoginViewController.swift in Sources */,
+				45D075ED24E3EA9F00114ECF /* SidePanelViewController.swift in Sources */,
+				45D075F724E3EA9F00114ECF /* ServiceStatusCell.swift in Sources */,
+				45D075F424E3EA9F00114ECF /* Preferences.swift in Sources */,
+				45D075EC24E3EA9F00114ECF /* DummyData.swift in Sources */,
+				45D075F524E3EA9F00114ECF /* Common.swift in Sources */,
+				45430C6F24E3E2980093D04A /* AppDelegate.swift in Sources */,
+				45D075F324E3EA9F00114ECF /* ServicingStatus.swift in Sources */,
+				45D075EE24E3EA9F00114ECF /* HomeViewController.swift in Sources */,
+				45D075F624E3EA9F00114ECF /* MenuItem.swift in Sources */,
+				45D075EF24E3EA9F00114ECF /* SplashViewController.swift in Sources */,
+				45D075F224E3EA9F00114ECF /* Constants.swift in Sources */,
+				45D075F924E3EA9F00114ECF /* CheckBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45430C7D24E3E2990093D04A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45430C8624E3E2990093D04A /* ABC_Vehicle_ServicingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45430C8824E3E2990093D04A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45430C9124E3E2990093D04A /* ABC_Vehicle_ServicingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45430C8324E3E2990093D04A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45430C6A24E3E2980093D04A /* ABC Vehicle Servicing */;
+			targetProxy = 45430C8224E3E2990093D04A /* PBXContainerItemProxy */;
+		};
+		45430C8E24E3E2990093D04A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45430C6A24E3E2980093D04A /* ABC Vehicle Servicing */;
+			targetProxy = 45430C8D24E3E2990093D04A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45430C7424E3E2980093D04A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45430C7524E3E2980093D04A /* Base */,
+				45D075FB24E3EAE200114ECF /* en-IN */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45430C7924E3E2990093D04A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45430C7A24E3E2990093D04A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		45D0760324E3EC0200114ECF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45D0760224E3EC0200114ECF /* en-IN */,
+				45D0760424E3EC1A00114ECF /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45430C9324E3E2990093D04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45430C9424E3E2990093D04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45430C9624E3E2990093D04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96EDC5B193C40EF28E3BA28A /* Pods-ABC Vehicle Servicing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ABC Vehicle Servicing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankur-agarwal.ABC-Vehicle-Servicing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45430C9724E3E2990093D04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C82C810C791FB97AF03477 /* Pods-ABC Vehicle Servicing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ABC Vehicle Servicing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankur-agarwal.ABC-Vehicle-Servicing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45430C9924E3E2990093D04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD1EB8BB2E51F0A95D5FEE9 /* Pods-ABC Vehicle ServicingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ABC Vehicle ServicingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankur-agarwal.ABC-Vehicle-ServicingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABC Vehicle Servicing.app/ABC Vehicle Servicing";
+			};
+			name = Debug;
+		};
+		45430C9A24E3E2990093D04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064FDDA4847C138A8D4446DB /* Pods-ABC Vehicle ServicingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ABC Vehicle ServicingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankur-agarwal.ABC-Vehicle-ServicingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABC Vehicle Servicing.app/ABC Vehicle Servicing";
+			};
+			name = Release;
+		};
+		45430C9C24E3E2990093D04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 824F40816E32394CA76E233C /* Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ABC Vehicle ServicingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankur-agarwal.ABC-Vehicle-ServicingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ABC Vehicle Servicing";
+			};
+			name = Debug;
+		};
+		45430C9D24E3E2990093D04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF7C852AB334FD4DCB7A8A6 /* Pods-ABC Vehicle Servicing-ABC Vehicle ServicingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ABC Vehicle ServicingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankur-agarwal.ABC-Vehicle-ServicingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ABC Vehicle Servicing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45430C6624E3E2980093D04A /* Build configuration list for PBXProject "ABC Vehicle Servicing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45430C9324E3E2990093D04A /* Debug */,
+				45430C9424E3E2990093D04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45430C9524E3E2990093D04A /* Build configuration list for PBXNativeTarget "ABC Vehicle Servicing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45430C9624E3E2990093D04A /* Debug */,
+				45430C9724E3E2990093D04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45430C9824E3E2990093D04A /* Build configuration list for PBXNativeTarget "ABC Vehicle ServicingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45430C9924E3E2990093D04A /* Debug */,
+				45430C9A24E3E2990093D04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45430C9B24E3E2990093D04A /* Build configuration list for PBXNativeTarget "ABC Vehicle ServicingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45430C9C24E3E2990093D04A /* Debug */,
+				45430C9D24E3E2990093D04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45430C6324E3E2980093D04A /* Project object */;
+}
