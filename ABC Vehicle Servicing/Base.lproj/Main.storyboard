@@ -67,30 +67,33 @@
             </objects>
             <point key="canvasLocation" x="804" y="106"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="6vI-YM-gud">
             <objects>
                 <tableViewController storyboardIdentifier="HomeVC" clearsSelectionOnViewWillAppear="NO" id="r32-IM-vDI" customClass="HomeViewController" customModule="ABC_Vehicle_Servicing" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="9WF-7i-xNC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ayX-Hn-32E">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="ayX-Hn-32E" customClass="ServiceVehicleCell" customModule="ABC_Vehicle_Servicing" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ayX-Hn-32E" id="9UU-JV-wqt">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="r32-IM-vDI" id="ASg-pT-6lg"/>
-                            <outlet property="delegate" destination="r32-IM-vDI" id="GZ3-DP-IYI"/>
+                            <outlet property="dataSource" destination="r32-IM-vDI" id="NtB-bI-Vxw"/>
+                            <outlet property="delegate" destination="r32-IM-vDI" id="sbI-vd-YOa"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="6oM-KK-ZS8"/>
+                    <navigationItem key="navigationItem" id="6oM-KK-ZS8"/>
+                    <connections>
+                        <outlet property="tableView" destination="9WF-7i-xNC" id="cdM-bC-O2y"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NDs-1w-lt6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

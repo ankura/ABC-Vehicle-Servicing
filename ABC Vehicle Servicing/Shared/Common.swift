@@ -273,6 +273,7 @@ class Common: NSObject {
         Preferences.rememberMe(answer: "no")
         Preferences.userID(value: "")
         Preferences.MD5Password(value: "")
+        Preferences.FullName(name: "")
     }
     
 }

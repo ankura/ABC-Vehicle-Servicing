@@ -91,6 +91,7 @@ class SplashViewController: UIViewController {
         let navigationController = UINavigationController()
         
         let splitViewController =  UISplitViewController()
+        //splitViewController.preferredDisplayMode = UISplitViewController.DisplayMode.allVisible
         let homeViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeVC")as! HomeViewController
         navigationController.addChild(homeViewController)
         let detailViewController = self.storyboard?.instantiateViewController(withIdentifier: "DetailVC")as! DetailViewController
@@ -99,8 +100,12 @@ class SplashViewController: UIViewController {
         UIApplication.shared.windows.first?.rootViewController = splitViewController
         UIApplication.shared.windows.first?.makeKeyAndVisible()
         
+        // send first vehicle data
+        detailViewController.selectedVehicle = homeViewController.vehicleItems.first
+        
         detailViewController.navigationItem.leftItemsSupplementBackButton = true
         detailViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
+        homeViewController.delegate = detailViewController
         
     }
     

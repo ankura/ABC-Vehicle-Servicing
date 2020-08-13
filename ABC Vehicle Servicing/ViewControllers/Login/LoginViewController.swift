@@ -555,6 +555,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             Preferences.LoginMe(answer: "yes")
             Preferences.userID(value:self.emailTextField.text!)
             Preferences.MD5Password(value: Common.md5(self.passwordTextField.text!))
+            Preferences.FullName(name: self.emailTextField.text!)
             self.showHomeVC()
             
         } else {
@@ -621,8 +622,13 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         UIApplication.shared.windows.first?.rootViewController = splitViewController
         UIApplication.shared.windows.first?.makeKeyAndVisible()
         
+        // send first vehicle data
+        detailViewController.selectedVehicle = homeViewController.vehicleItems.first
+        
         detailViewController.navigationItem.leftItemsSupplementBackButton = true
         detailViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
+        homeViewController.delegate = detailViewController
+
     }
     
     

@@ -77,6 +77,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         let email = user.profile.email
         // ...
         Preferences.userID(value:email!)
+        Preferences.FullName(name: fullName ?? email!)
         NotificationCenter.default.post(name: Notification.Name(rawValue: "GoggleAuthUINotification"), object: nil, userInfo: ["statusText": "Signed in user:\n\(fullName!)"])
     }
     

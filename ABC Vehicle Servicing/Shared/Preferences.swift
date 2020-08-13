@@ -97,4 +97,25 @@ class Preferences: NSObject {
         let value =  UserDefaults.standard.value(forKey: kMD5Password)
         return value != nil ? value as! String : ""
     }
+    
+    
+    /// Save Full Name
+    /// Method to store the Full name  in Standard defautls
+    ///
+    /// - Parameter name: String
+    class func FullName(name: String)
+    {
+        UserDefaults.standard.set(name, forKey: kFullName)
+        UserDefaults.standard.synchronize()
+    }
+    
+    
+    /// Return Full Name
+    /// Method to get the Full name stored in Standard defautls
+    ///
+    /// - Returns : String
+    class func FullNameValue() -> String? {
+        let value =  UserDefaults.standard.value(forKey: kFullName)
+        return value != nil ? value as! String : ""
+    }
 }

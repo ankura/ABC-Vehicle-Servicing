@@ -8,62 +8,26 @@
 
 import Foundation
 
-struct carStat {
-    let kmDriven: String?
-    let fuelLevel: String?
-    let tyreThread: String?
-    let engineHealth: String?
-    let oilLevel: String?
-    let batteryLife: String?
-}
-
-struct carDetails {
-  let carName:String?
-  let carImage:String?
-}
-
-struct carServiceStatus {
-    let oilChange: servicingItemStatus
-    let oilChangeTime: String?
-    let brakeOil: servicingItemStatus
-    let brakeOilTime: String?
-    let filterChange: servicingItemStatus
-    let filterChangeTime: String?
-    let batteryCheck: servicingItemStatus
-    let batteryCheckTime: String?
-}
-
-class CarAPI {
- static func getCarData() -> [carDetails]{
-   let details = [
-     carDetails(carName: "Honda City", carImage: "honda_car"),
-     carDetails(carName: "Ecosports", carImage: "ecosports_car"),
-     carDetails(carName: "Hyundai Creta", carImage: "creta_car")
+class VehicleAPI {
+ static func getVehicleData() -> [vehicleItem]{
+   let vehicles = [
+    vehicleItem(vehicleName: "Honda City Z", vehicleImage: "honda_car", vehicleKM: "14765 / KM Driven", vehicleSeatCap: "5 Seater", vehicleFuel: "Petrol", vehicleTrans: .vehicle_trans_manual),
+    vehicleItem(vehicleName: "Ford Ecospots", vehicleImage: "ecosports_car", vehicleKM: "4000 / KM Driven", vehicleSeatCap: "5 Seater", vehicleFuel: "Diesel", vehicleTrans: .vehicle_trans_automatic),
+    vehicleItem(vehicleName: "Hyundai Creta", vehicleImage: "creta_car", vehicleKM: "10000 / KM Driven", vehicleSeatCap: "5 Seater", vehicleFuel: "Petrol", vehicleTrans: .vehicle_trans_manual),
+    vehicleItem(vehicleName: "Honda Brio", vehicleImage: "brio_car", vehicleKM: "36356 / KM Driven", vehicleSeatCap: "5 Seater", vehicleFuel: "Petrol", vehicleTrans: .vehicle_trans_manual),
+    vehicleItem(vehicleName: "Maruti Baleno", vehicleImage: "baleno_car", vehicleKM: "47122 / KM Driven", vehicleSeatCap: "5 Seater", vehicleFuel: "Diesel", vehicleTrans: .vehicle_trans_automatic),
+    vehicleItem(vehicleName: "Honda Jazz", vehicleImage: "jazz_car", vehicleKM: "21133 / KM Driven", vehicleSeatCap: "4 Seater", vehicleFuel: "Petrol", vehicleTrans: .vehicle_trans_manual),
+    
+    vehicleItem(vehicleName: "Hyundai Creta", vehicleImage: "creta_car", vehicleKM: "16050 / KM Driven", vehicleSeatCap: "5 Seater", vehicleFuel: "Petrol", vehicleTrans: .vehicle_trans_automatic),
+    vehicleItem(vehicleName: "Honda City Z", vehicleImage: "honda_car", vehicleKM: "4565 / KM Driven", vehicleSeatCap: "5 Seater", vehicleFuel: "Diesel", vehicleTrans: .vehicle_trans_automatic),
+    vehicleItem(vehicleName: "Honda Brio", vehicleImage: "brio_car", vehicleKM: "16040 / KM Driven", vehicleSeatCap: "5 Seater", vehicleFuel: "Diesel", vehicleTrans: .vehicle_trans_manual),
+    vehicleItem(vehicleName: "Honda Jazz", vehicleImage: "jazz_car", vehicleKM: "1133 / KM Driven", vehicleSeatCap: "4 Seater", vehicleFuel: "Petrol", vehicleTrans: .vehicle_trans_manual),
+    vehicleItem(vehicleName: "Ford Ecospots", vehicleImage: "ecosports_car", vehicleKM: "40000 / KM Driven", vehicleSeatCap: "5 Seater", vehicleFuel: "Petrol", vehicleTrans: .vehicle_trans_manual),
+    vehicleItem(vehicleName: "Maruti Baleno", vehicleImage: "baleno_car", vehicleKM: "145322 / KM Driven", vehicleSeatCap: "5 Seater", vehicleFuel: "Diesel", vehicleTrans: .vehicle_trans_manual),
+    
     ]
-   return details
-  }
-}
-
-class StatsAPI {
- static func getStatsData() -> [carStat]{
-   let stats = [
-     carStat(kmDriven: "14765", fuelLevel: "45 L", tyreThread: "2 mm", engineHealth: "Good", oilLevel: "2.6L / 3L", batteryLife: "Bad"),
-     carStat(kmDriven: "4000", fuelLevel: "20 L", tyreThread: "4 mm", engineHealth: "Average", oilLevel: "1.0 L / 3L", batteryLife: "Good"),
-     carStat(kmDriven: "53000", fuelLevel: "100 L", tyreThread: "3 mm", engineHealth: "Poor", oilLevel: "0.5 L / 4L", batteryLife: "Average")
-    ]
-   return stats
+   return vehicles
   }
 }
 
 
-class ServiceStatusAPI {
-    static func getServiceStatus() -> [carServiceStatus]{
-     let status = [
-        carServiceStatus(oilChange: .not_started_servicing, oilChangeTime: "(10:30 am)", brakeOil: .not_started_servicing, brakeOilTime: "(11:15 am)", filterChange: .not_started_servicing, filterChangeTime: "(12:30 pm)", batteryCheck: .not_started_servicing, batteryCheckTime: "(02:10 pm)"),
-        carServiceStatus(oilChange: .completed_servicing, oilChangeTime: "(12:30 pm)", brakeOil: .completed_servicing, brakeOilTime: "(02:15 pm)", filterChange: .in_progress_servicing, filterChangeTime: "(03:10 pm)", batteryCheck: .in_progress_servicing, batteryCheckTime: "(04:15 pm)"),
-        carServiceStatus(oilChange: .completed_servicing, oilChangeTime: "(10:10 am)", brakeOil: .in_progress_servicing, brakeOilTime: "(11:15 am)", filterChange: .in_progress_servicing, filterChangeTime: "(12:30 pm)", batteryCheck: .not_started_servicing, batteryCheckTime: "(02:10 pm)"),
-        carServiceStatus(oilChange: .completed_servicing, oilChangeTime: "(01:10 pm)", brakeOil: .completed_servicing, brakeOilTime: "(02:15 pm)", filterChange: .completed_servicing, filterChangeTime: "(03:15 pm)", batteryCheck: .in_progress_servicing, batteryCheckTime: "(05:10 pm)"),
-      ]
-     return status
-    }
-}

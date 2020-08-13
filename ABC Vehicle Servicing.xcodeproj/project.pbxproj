@@ -20,11 +20,10 @@
 		45D075EF24E3EA9F00114ECF /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075DD24E3EA9F00114ECF /* SplashViewController.swift */; };
 		45D075F124E3EA9F00114ECF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E024E3EA9F00114ECF /* LoginViewController.swift */; };
 		45D075F224E3EA9F00114ECF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E224E3EA9F00114ECF /* Constants.swift */; };
-		45D075F324E3EA9F00114ECF /* ServicingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E324E3EA9F00114ECF /* ServicingStatus.swift */; };
 		45D075F424E3EA9F00114ECF /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E424E3EA9F00114ECF /* Preferences.swift */; };
 		45D075F524E3EA9F00114ECF /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E524E3EA9F00114ECF /* Common.swift */; };
 		45D075F624E3EA9F00114ECF /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E624E3EA9F00114ECF /* MenuItem.swift */; };
-		45D075F724E3EA9F00114ECF /* ServiceStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E724E3EA9F00114ECF /* ServiceStatusCell.swift */; };
+		45D075F724E3EA9F00114ECF /* ServiceVehicleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E724E3EA9F00114ECF /* ServiceVehicleCell.swift */; };
 		45D075F824E3EA9F00114ECF /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E824E3EA9F00114ECF /* MenuCell.swift */; };
 		45D075F924E3EA9F00114ECF /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075E924E3EA9F00114ECF /* CheckBox.swift */; };
 		45D075FA24E3EA9F00114ECF /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D075EB24E3EA9F00114ECF /* ApiManager.swift */; };
@@ -73,11 +72,10 @@
 		45D075DD24E3EA9F00114ECF /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		45D075E024E3EA9F00114ECF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		45D075E224E3EA9F00114ECF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		45D075E324E3EA9F00114ECF /* ServicingStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicingStatus.swift; sourceTree = "<group>"; };
 		45D075E424E3EA9F00114ECF /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		45D075E524E3EA9F00114ECF /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		45D075E624E3EA9F00114ECF /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
-		45D075E724E3EA9F00114ECF /* ServiceStatusCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceStatusCell.swift; sourceTree = "<group>"; };
+		45D075E724E3EA9F00114ECF /* ServiceVehicleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceVehicleCell.swift; sourceTree = "<group>"; };
 		45D075E824E3EA9F00114ECF /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		45D075E924E3EA9F00114ECF /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		45D075EB24E3EA9F00114ECF /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
@@ -239,11 +237,10 @@
 			isa = PBXGroup;
 			children = (
 				45D075E224E3EA9F00114ECF /* Constants.swift */,
-				45D075E324E3EA9F00114ECF /* ServicingStatus.swift */,
 				45D075E424E3EA9F00114ECF /* Preferences.swift */,
 				45D075E524E3EA9F00114ECF /* Common.swift */,
 				45D075E624E3EA9F00114ECF /* MenuItem.swift */,
-				45D075E724E3EA9F00114ECF /* ServiceStatusCell.swift */,
+				45D075E724E3EA9F00114ECF /* ServiceVehicleCell.swift */,
 				45D075E824E3EA9F00114ECF /* MenuCell.swift */,
 				45D075E924E3EA9F00114ECF /* CheckBox.swift */,
 			);
@@ -549,13 +546,12 @@
 				45D075F824E3EA9F00114ECF /* MenuCell.swift in Sources */,
 				45D075F124E3EA9F00114ECF /* LoginViewController.swift in Sources */,
 				45D075ED24E3EA9F00114ECF /* SidePanelViewController.swift in Sources */,
-				45D075F724E3EA9F00114ECF /* ServiceStatusCell.swift in Sources */,
+				45D075F724E3EA9F00114ECF /* ServiceVehicleCell.swift in Sources */,
 				45D075F424E3EA9F00114ECF /* Preferences.swift in Sources */,
 				45D075EC24E3EA9F00114ECF /* DummyData.swift in Sources */,
 				45D0760624E400B700114ECF /* DetailViewController.swift in Sources */,
 				45D075F524E3EA9F00114ECF /* Common.swift in Sources */,
 				45430C6F24E3E2980093D04A /* AppDelegate.swift in Sources */,
-				45D075F324E3EA9F00114ECF /* ServicingStatus.swift in Sources */,
 				45D075EE24E3EA9F00114ECF /* HomeViewController.swift in Sources */,
 				45D075F624E3EA9F00114ECF /* MenuItem.swift in Sources */,
 				45D075EF24E3EA9F00114ECF /* SplashViewController.swift in Sources */,
